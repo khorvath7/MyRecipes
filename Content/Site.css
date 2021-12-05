@@ -1,0 +1,151 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+body {
+    background-color: #f9f4ef;
+    color: #0D160B;
+    font-size: 17px;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+.navbar {
+    background-color: #3c1c2f;
+}
+.nav{
+    font-size: 18px;
+}
+
+h2 {
+    color: #4D243D;
+}
+.imgSlide {
+   height: 50%;
+}
+.container a {
+    color: #0f7a78;
+}
+table{
+    font-size: 17px;
+}
+tr {
+    color: #3C1C2F;
+}
+.pgtitle {
+    font-size: 60px;
+    color: #4D243D;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom:0;
+}
+.pgsubtitle{
+    margin-top:0px;
+    padding-bottom: 0px;
+}
+.bold{
+    font-weight:bold;
+}
+.purple {
+    color: #4D243D;
+}
+.rightb{
+    border-right: 1px solid #eee;
+}
+.plain{
+    list-style-type: none;
+}
+hr{
+    border-color: #e4572E;
+}
+h3{
+    font-weight:500;
+}
+#carousel-example-generic {
+    max-height: 460px;
+}
+.item{
+    max-height: 460px;
+}
+.glyphicon{
+    color:white;
+}
+.glyphicon:hover {
+    color: #e4572E;
+}
+.carousel-indicators{
+    color: #e4572E;
+}
+.carousel-caption {
+    background-color: rgba(0,0,0,.6);
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0px;
+    max-width: 430px;
+    bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #3c1c2f;
+   
+}
+.carousel-caption h4 {
+        color: #e4572E;
+}
+.btn-default:hover{
+    background-color: #0f7a78;
+    color: white;
+}
+.navbarTitle{
+    font-size: 30px;
+}
+p {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+blockquote {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+footer{
+    font-size: 13px;
+}

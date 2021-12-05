@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="pgtitle">MyRecipes</h1>
+        <p class="pgsubtitle">Let's get cooking. </p>
+        <hr />
+    </div>
+</div>
+
+
+    <div class="row" id="imgSlide">
+        <div class="col-xs-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="d-block w-80 img-slide" src="@Url.Content("~/Content/Images/brownie.jpeg")" alt="Image of brownie" />
+                        <div class="carousel-caption">
+                            <h3 class="underline">Decadent Brownie</h3>
+                            <p>A warm chocolate brownie served with vanilla ice cream.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="d-block w-100" src="@Url.Content("~/Content/Images/latte.jpeg")" alt="Image of latte">
+                        <div class="carousel-caption">
+                            <h3 class="underline">Matcha Latte</h3>
+                            <p>A refreshing twist on the classic latte.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img class="d-block w-100" src="@Url.Content("~/Content/Images/rolls.jpeg")" alt="Image of rolls">
+                        <div class="carousel-caption">
+                            <h3 class="underline">Ensaymada</h3>
+                            <p>A pastry orininating from Spain, topped with butter and sugar.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="d-block w-100" src="@Url.Content("~/Content/Images/donuts.jpeg")" alt="Image of donuts">
+                        <div class="carousel-caption">
+                            <h3 class="underline">Chocolate Glazed Donut Holes</h3>
+                            <p>Delicious donut holes covered with chocolate glaze.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="d-block w-100" src="@Url.Content("~/Content/Images/cake.jpeg")" alt="Image of cake">
+                        <div class="carousel-caption">
+                            <h3 class="underline">Marble Cheesecake</h3>
+                            <p>A light vanilla cheesecake with chocolate swirls.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-4 home">
+            <h2>Get Started Today</h2>
+            <p>
+                Sign up today for access to our recipes and to share your own. There's guaranteed to be something for everyone!
+            </p>
+        </div>
+        <div class="col-md-4 home">
+            <h2>Become a pro</h2>
+            <p>Have questions? We've got you covered. View our tips page to take your cooking to the next level.</p>
+            
+        </div>
+        <div class="col-md-4 home">
+            <h2>Have fun!</h2>
+            <p>Consider trying something new or experimenting a little. </p>
+        </div>
+    </div>
